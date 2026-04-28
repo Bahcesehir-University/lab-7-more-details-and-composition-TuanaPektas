@@ -112,7 +112,7 @@ int constGetDouble() const { return value * 2; }
 // ============================================================
 int main() {
 // TODO 17: Demo Point
-std::cout << “=== Point Demo ===” << std::endl;
+std::cout << "=== Point Demo ==="<< std::endl;
 Point p(3.0, 4.0);
 p.display();
 std::cout << std::endl;
